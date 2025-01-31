@@ -48,8 +48,8 @@ const HeroSection = () => {
               </>
             ) : (
               <>
-                <p className="text-blue-600 font-medium text-3xl">Hello, I'm</p>
-                <h1 className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight">
+                <p className="text-blue-600 font-medium text-4xl sm:mt-8 ">Hello, I'm</p>
+                <h1 className="text-4xl md:text-5xl font-bold text-gray-800"> 
                   Pushpreet Singh
                   <span className="block text-3xl md:text-4xl text-blue-500 mt-2">
                     Frontend Developer
@@ -66,7 +66,7 @@ const HeroSection = () => {
           </div>
 
           {/* CTA and Social Links Container */}
-          <div className="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6">
+          <div className="flex gap-2 md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-6">
             {isLoading ? (
               <Skeleton width={180} height={50} />
             ) : (
