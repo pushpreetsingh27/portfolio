@@ -81,27 +81,6 @@ const HeroSection = () => {
               </button>
             )}
 
-            {/* Social Links */}
-            {isLoading ? (
-              <div className="flex space-x-4">
-                <Skeleton circle={true} width={40} height={40} />
-                <Skeleton circle={true} width={40} height={40} />
-              </div>
-            ) : (
-              <div className="flex items-center space-x-4">
-                {socialLinks.map((social, index) => (
-                  <a
-                    key={index}
-                    href={social.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`${social.color} transition-transform hover:scale-110`}
-                  >
-                    {social.icon}
-                  </a>
-                ))}
-              </div>
-            )}
           </div>
         </div>
 

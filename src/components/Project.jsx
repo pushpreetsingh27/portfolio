@@ -17,7 +17,7 @@ const ProjectsSection = () => {
       technologies: ["React", "Firebase", "Tailwind"],
       image: "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
       githubLink: "https://github.com/yourusername/task-management",
-      liveLink: "https://your-task-app-demo.vercel.app"
+      liveLink: "https://blog-app-mu-five.vercel.app/"
     },
    
     
