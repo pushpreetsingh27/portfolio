@@ -48,11 +48,11 @@ const HeroSection = () => {
               </>
             ) : (
               <>
-                <p className="text-blue-600 font-medium text-4xl sm:mt-8 ">Hello, I'm</p>
+                <p className="text-blue-600 font-medium text-6xl sm:mt-8 ">Hello,</p>
                 <h1 className="text-4xl md:text-5xl font-bold text-gray-800"> 
-                  Pushpreet Singh
+                 I'm Pushpreet Singh
                   <span className="block text-3xl md:text-4xl text-blue-500 mt-2">
-                    Frontend Developer
+                   a Frontend Developer
                   </span>
                 </h1>
                 <p className="text-gray-600 leading-relaxed">

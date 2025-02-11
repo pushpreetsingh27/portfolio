@@ -8,18 +8,19 @@ import {
 
 const AboutMe = () => {
   const technologies = [
-    { name: 'HTML', color: 'text-orange-500', bgColor: 'bg-orange-100' },
-    { name: 'CSS', color: 'text-blue-600', bgColor: 'bg-blue-100' },
-    { name: 'JavaScript', color: 'text-yellow-500', bgColor: 'bg-yellow-100' },
-    { name: 'React', color: 'text-cyan-500', bgColor: 'bg-cyan-100' },
-    { name: 'Node.js', color: 'text-green-600', bgColor: 'bg-green-100' },
-    { name: 'MongoDB', color: 'text-emerald-600', bgColor: 'bg-emerald-100' },
-    { name: 'ExpreesJS', color: 'text-emerald-600', bgColor: 'bg-emerald-100' },
-    { name: 'Tailwind', color: 'text-sky-500', bgColor: 'bg-sky-100' },
-    { name: 'UiPath', color: 'text-purple-600', bgColor: 'bg-purple-100' },
-    { name: 'GitHub', color: 'text-gray-800', bgColor: 'bg-gray-100' },
-    { name: 'Firebase', color: 'text-orange-500', bgColor: 'bg-orange-100' },
-    { name: 'Power Automate', color: 'text-indigo-600', bgColor: 'bg-indigo-100' }
+    { name: 'HTML', color: 'text-orange-900', bgColor: 'bg-gradient-to-r from-orange-400 to-yellow-300' },
+    { name: 'CSS', color: 'text-blue-900', bgColor: 'bg-gradient-to-r from-blue-400 to-indigo-300' },
+    { name: 'JavaScript', color: 'text-amber-900', bgColor: 'bg-gradient-to-r from-yellow-400 to-amber-300' },
+    { name: 'React', color: 'text-cyan-900', bgColor: 'bg-gradient-to-r from-cyan-400 to-blue-300' },
+    { name: 'Node.js', color: 'text-green-900', bgColor: 'bg-gradient-to-r from-green-500 to-lime-300' },
+    { name: 'MongoDB', color: 'text-emerald-900', bgColor: 'bg-gradient-to-r from-emerald-500 to-teal-300' },
+    { name: 'ExpressJS', color: 'text-teal-900', bgColor: 'bg-gradient-to-r from-teal-500 to-cyan-300' },
+    { name: 'TypeScript', color: 'text-blue-900', bgColor: 'bg-gradient-to-r from-sky-500 to-indigo-300' },
+    { name: 'Tailwind', color: 'text-sky-900', bgColor: 'bg-gradient-to-r from-sky-400 to-teal-300' },
+    { name: 'UiPath', color: 'text-purple-900', bgColor: 'bg-gradient-to-r from-purple-500 to-pink-300' },
+    { name: 'GitHub', color: 'text-gray-900', bgColor: 'bg-gradient-to-r from-gray-400 to-gray-200' },
+    { name: 'Firebase', color: 'text-orange-900', bgColor: 'bg-gradient-to-r from-orange-500 to-amber-300' },            
+    { name: 'Power Automate', color: 'text-cyan-900', bgColor: 'bg-gradient-to-r from-cyan-400 to-blue-300' }
   ];
 
   return (
@@ -72,7 +73,7 @@ const AboutMe = () => {
                             ${tech.bgColor} ${tech.color} 
                             hover:scale-105 transition-transform cursor-pointer`}
               >
-                <span className={`font-semibold text-sm ${tech.color}`}>
+                <span className={`font-semibold inline-block text-sm ${tech.color}`}>
                   {tech.name}
                 </span>
               </div>

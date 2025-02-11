@@ -7,7 +7,7 @@ const ProjectsSection = () => {
       title: "MERN Chat App",
       description: "A real-time messaging platform with dynamic updates, leveraging MongoDB, Express, React, and Node.js.",
       technologies: ["React", "Node.js", "MongoDB","ExpressJS" ,"Socket.io" , "Tailwind" ],
-      image: "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+      image: "./Capture.PNG",
       githubLink: "https://github.com/pushpreetsingh27/mern-chat-app",
       liveLink: "https://your-ecommerce-demo.vercel.app"
     },
@@ -15,7 +15,7 @@ const ProjectsSection = () => {
       title: "React Blog App",
       description: "A feature-rich platform for creating, managing, and sharing blogs with secure Firebase authentication and storage.",
       technologies: ["React", "Firebase", "Tailwind"],
-      image: "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+      image: "project-img.PNG",
       githubLink: "https://github.com/yourusername/task-management",
       liveLink: "https://blog-app-mu-five.vercel.app/"
     },
@@ -32,10 +32,7 @@ const ProjectsSection = () => {
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
             My Projects
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            A collection of innovative projects showcasing my skills in frontend development, 
-            React, and automation technologies.
-          </p>
+         
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -71,7 +68,7 @@ const ProjectsSection = () => {
                     <span 
                       key={techIndex} 
                       className="px-2 py-1 bg-blue-100 text-blue-800 
-                                 text-xs rounded-full"
+                                 text rounded-full"
                     >
                       {tech}
                     </span>
