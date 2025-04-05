@@ -38,20 +38,12 @@ const AboutMe = () => {
           <div className="space-y-4 text-gray-700 leading-relaxed">
             <p className="flex items-center space-x-2">
               <Laptop className="text-blue-500 mr-2" size={20} />
-              As a passionate frontend developer, I specialize in creating dynamic, 
-              responsive web applications that deliver exceptional user experiences.
+              I have done BE in Electronics and Telecommunication 
             </p>
             
             <p className="flex items-center space-x-2">
-              <Target className="text-green-500 mr-2" size={20} />
-              My expertise spans modern web technologies, with a strong focus on React 
-              and contemporary frontend frameworks. I transform complex design concepts 
-              into elegant, efficient, and interactive web solutions.
-            </p>
-            
-            <p className="flex items-center space-x-2">
-              <Zap className="text-yellow-500 mr-2" size={20} />
-              Beyond frontend development, I bring unique skills in Robotic Process 
+             
+              Beyond frontend development I bring unique skills in Robotic Process 
               Automation (RPA) technologies like UiPath and Power Automate. This 
               interdisciplinary background allows me to approach problem-solving 
               with innovative and holistic strategies.

@@ -4,12 +4,12 @@ import { Github, ExternalLink } from 'lucide-react';
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "MERN Chat App",
-      description: "A real-time messaging platform with dynamic updates, leveraging MongoDB, Express, React, and Node.js.",
-      technologies: ["React", "Node.js", "MongoDB","ExpressJS" ,"Socket.io" , "Tailwind" ],
-      image: "./Capture.PNG",
-      githubLink: "https://github.com/pushpreetsingh27/mern-chat-app",
-      liveLink: "https://your-ecommerce-demo.vercel.app"
+      title: "MERN JOB PORTAL",
+      description: "A platform to post and search jobs, leveraging MongoDB, Express, React, and Node.js.",
+      technologies: ["React", "Node.js", "MongoDB","ExpressJS" , "Shadcn UI" ],
+      image: "./image.png",
+      githubLink: "https://github.com/pushpreetsingh27/job-portal",
+      liveLink: "https://job-portal-1-ukke.onrender.com"
     },
     {
       title: "React Blog App",

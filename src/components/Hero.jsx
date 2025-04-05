@@ -20,7 +20,7 @@ const HeroSection = () => {
   ];
 
   const handleResumeDownload = () => {
-    window.open("/path/to/your/resume.pdf", "_blank");
+    window.open("https://drive.google.com/file/d/10QRjVkhggiX53LJhPZvxxfTDwMNbJ_5x/view?usp=sharing");
   };
 
   // Simulate loading state
@@ -77,7 +77,7 @@ const HeroSection = () => {
                            group font-medium"
               >
                 <Download size={20} className="group-hover:animate-bounce" />
-                <span>Download Resume</span>
+                <span> Download Resume</span>
               </button>
             )}
 
