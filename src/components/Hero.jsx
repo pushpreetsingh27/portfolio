@@ -20,7 +20,7 @@ const HeroSection = () => {
   ];
 
   const handleResumeDownload = () => {
-    window.open("https://drive.google.com/file/d/10QRjVkhggiX53LJhPZvxxfTDwMNbJ_5x/view?usp=sharing");
+    window.open("https://drive.google.com/file/d/1jonDrV3GYW_oR8XjAye7a8DU4i8AzHJB/view?usp=sharing");
   };
 
   // Simulate loading state
